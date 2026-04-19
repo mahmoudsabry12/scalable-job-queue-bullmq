@@ -108,3 +108,11 @@ cp .env.example .env
         updatedAt?: Date;
     }
  ```  
+## 📁 Implementation Server
+
+- Add App.ts & server.ts code .
+- Add Run Scripts to pacjage.json to run Server : 
+
+ ```
+  npm run dev
+ ```  
