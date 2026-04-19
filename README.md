@@ -39,3 +39,29 @@ cd scalable-job-queue-bullmq
 ```bash
 npm install
 ```
+
+---
+
+## 🧠 TypeScript Setup
+
+Initialize TypeScript configuration:
+
+```bash
+npx tsc --init
+```
+## ⚙️ tsconfig.json Configuration
+
+ Update tsconfig.json with the following settings : 
+
+```
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true
+  }
+}
+```
