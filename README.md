@@ -89,4 +89,8 @@ cp .env.example .env
 
 ## 📁 Add Redis Configrations
 
- Add Clean Redis connection (no side effects): 
+ Add Clean Redis connection (no side effects)
+
+## 📁 Mongo connection Configrations
+
+ Implement mongo connection  
