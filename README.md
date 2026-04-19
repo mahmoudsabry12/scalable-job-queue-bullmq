@@ -94,3 +94,17 @@ cp .env.example .env
 ## 📁 Mongo connection Configrations
 
  Implement mongo connection  
+
+## 📁 Designing Mongo DB Models
+
+ Implement Email Schema :
+
+ ```
+  IEmail {
+        email: string;
+        message: string;
+        status: "pending" | "sent" | "failed";
+        createdAt?: Date;
+        updatedAt?: Date;
+    }
+ ```  
