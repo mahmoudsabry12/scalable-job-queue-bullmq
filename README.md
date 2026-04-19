@@ -80,3 +80,13 @@ src/
  ├── app.ts
  └── server.ts
 ```
+## 📁 Add env File
+
+```
+npm install dotenv
+cp .env.example .env
+```
+
+## 📁 Add Redis Configrations
+
+ Add Clean Redis connection (no side effects): 
