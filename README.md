@@ -65,3 +65,18 @@ npx tsc --init
   }
 }
 ```
+## 📁 Design Folder Structure
+
+ Add Folders App  : 
+
+```
+src/
+ ├── config/
+ ├── queues/
+ ├── jobs/
+ ├── workers/
+ ├── api/
+ ├── models/
+ ├── app.ts
+ └── server.ts
+```
