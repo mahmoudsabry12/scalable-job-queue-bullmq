@@ -1,4 +1,5 @@
 import { Email } from '../models/email.model'
+import { sendEmail } from '../service/email.service'
 
 export const processEmailJob = async (data:{ email:string, message:string }) =>{
 
@@ -8,7 +9,7 @@ export const processEmailJob = async (data:{ email:string, message:string }) =>{
     })
     try {
         console.log(' Sending email to:', data.email)
-        await new Promise(res => setTimeout(res,2000)) 
+        await sendEmail(data.email, data.message)
          
         record.status = 'sent'
         await record.save()
