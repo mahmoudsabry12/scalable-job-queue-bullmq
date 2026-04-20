@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node-dev src/server.ts",
+    "worker": "ts-node-dev src/workers/email.worker.ts"
   },
   "keywords": [],
   "author": "",

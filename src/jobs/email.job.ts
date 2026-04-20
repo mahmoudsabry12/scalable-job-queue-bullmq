@@ -11,7 +11,7 @@ export const processEmailJob = async (data:{ email:string, message:string }) =>{
         await new Promise(res => setTimeout(res,2000)) 
          
         record.status = 'sent'
-        record.save()
+        await record.save()
         console.log(' Email sent')
 
     } catch (error) {
